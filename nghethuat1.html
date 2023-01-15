@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,13 +16,9 @@
     }
   </style>
 </head>
-
 <body>
-
   <canvas id="heart">
-
   </canvas>
-
   <script>
     window.requestAnimationFrame =
       window.__requestAnimationFrame ||
@@ -159,7 +154,6 @@
             ctx.fillRect(u.trace[k].x, u.trace[k].y, 1, 1);
           }
         }
-
         window.requestAnimationFrame(loop, canvas);
       };
       loop();
